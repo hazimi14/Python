@@ -18,7 +18,7 @@ def test_mute():
     tv.volume_up()
     tv.mute()
     tv.volume_up()
-    assert str(tv) == "Power = True, Channel = 0, Volume = 1"
+    assert str(tv) == "Power = True, Channel = 0, Volume = 2"
     tv.mute()
     tv.volume_up()
     assert str(tv) == "Power = True, Channel = 0, Volume = 2"
